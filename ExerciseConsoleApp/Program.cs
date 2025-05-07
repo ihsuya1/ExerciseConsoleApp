@@ -8,7 +8,7 @@
             int total = 0;
             int count = numbers.Length;
 
-            for (int i = 0; i <= count; i++) // off-by-one error
+            for (int i = 0; i < count; i++) // off-by-one error
             {
                 total += numbers[i];
             }
